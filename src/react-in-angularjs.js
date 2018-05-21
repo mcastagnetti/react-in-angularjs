@@ -44,7 +44,7 @@ class ReactComponentWrapper extends React.Component {
     }
 }
 
-(function IIFE() {
+(function IIFE(angular) {
     'use strict';
 
     function ReactComponentDirective() {
@@ -70,5 +70,5 @@ class ReactComponentWrapper extends React.Component {
 
     /////////////////////////////
 
-    angular.module('Directives').directive('reactComponent', ReactComponentDirective);
-})();
+    angular.module('react-component', []).directive('reactComponent', ReactComponentDirective);
+})(angular);
