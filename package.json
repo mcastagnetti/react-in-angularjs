@@ -1,0 +1,20 @@
+{
+  "name": "react-in-angularjs",
+  "version": "0.0.1",
+  "description": "A simple react wrapper for angularjs 1.x applications",
+  "main": "index.js",
+  "repository": "https://github.com/mcastagnetti/react-in-angularjs",
+  "author": "Marc-Olivier Castagnetti",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "path": "^0.12.7",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  }
+}
